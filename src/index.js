@@ -1,5 +1,6 @@
 import { header } from "./header";
+import { main } from "./main";
 
 const content = document.getElementById("content");
 content.appendChild(header);
-console.log(header);
+content.appendChild(main);
