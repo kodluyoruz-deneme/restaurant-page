@@ -13,6 +13,10 @@ export function loadMainPart(loadSelectedSection) {
   homeButton.innerHTML = '<a href="#">Home</a>';
   menuButton.innerHTML = '<a href="#">Menu</a>';
   contactButton.innerHTML = '<a href="#">Contact</a>';
+  homeButton.setAttribute("id", "home-button");
+  menuButton.setAttribute("id", "menu-button");
+  contactButton.setAttribute("id", "contact-button");
+  mainContent.setAttribute("id", "main-content");
   image.src = "../src/restaurant-image.jpeg";
   image.setAttribute("alt", "seaside restaurant image");
   mainContent.setAttribute("id", "main-content");
