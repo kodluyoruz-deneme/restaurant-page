@@ -1,3 +1,7 @@
+* {
+  background-color: #eff8f3;
+}
+
 #content {
   display: flex;
   flex-direction: column;
@@ -7,6 +11,13 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: #1f567a;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header h4 {
+  text-align: justify;
 }
 
 main {

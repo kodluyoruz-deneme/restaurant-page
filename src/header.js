@@ -13,8 +13,8 @@ function loadHeader() {
 
   //Add content to the elements
   h1Header.textContent = "Aegean Bistro";
-  h4Header.textContent =
-    "Delicious meals and refreshing drinks from ancient lands of Aegean";
+  h4Header.innerHTML =
+    "Delicious meals and refreshing drinks <br>from ancient lands of Aegean...";
   //Add header sub childs to the header element
   restaurantName.appendChild(h1Header);
   slogan.appendChild(h4Header);
