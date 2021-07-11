@@ -2,7 +2,7 @@
 
 This project was made for the webpack exercise on [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page). I tried to use ES6 Modules and create all html elements on seperate js files.
 
-Live Example:
+Live Example: [Restaurant Page](https://erencataltepe.github.io/restaurant-page/)
 
 ## Installation
 
