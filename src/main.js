@@ -6,7 +6,8 @@ export function loadMainPart(loadSelectedSection) {
   const selectedSection = loadSelectedSection();
 
   mainContent.setAttribute("id", "main-content");
-  image.src = "../src/restaurant-image.jpeg";
+  image.src =
+    "https://cdn.otelleri.net/landing/marmaris/gezi-rehberi/marmaris-kalabalik-meyhane-1259-53.jpg";
   image.setAttribute("alt", "seaside restaurant image");
   mainContent.setAttribute("id", "main-content");
   pageImage.setAttribute("id", "page-image");
