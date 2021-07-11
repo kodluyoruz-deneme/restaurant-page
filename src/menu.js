@@ -22,7 +22,7 @@ export function loadMenu() {
     {
       name: "Fried Striped Mullet",
       image:
-        "https://lh3.googleusercontent.com/proxy/oZUTKPEezy7RTtfypuOrhHGgnmQyX-h3IgPw3E04iTaVaFTpOYjra_yNT4NAf4t05tBzv6h85QrKzKxmTl7EeVb0f6_TUDQf_KJib1MD3hCiB332rX-ozAhHyWNPtFCQOcOB_Y0TMS6v",
+        "https://media-cdn.tripadvisor.com/media/photo-s/14/3f/d4/69/striped-mullet.jpg",
       price: 9,
     },
     {
