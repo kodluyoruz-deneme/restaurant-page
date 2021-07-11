@@ -1,5 +1,6 @@
 export function loadMenu() {
   const menuSection = document.createElement("section");
+  menuSection.setAttribute("id", "menu");
   const menu = [
     {
       name: "Grilled Umbra",
@@ -45,9 +46,14 @@ export function loadMenu() {
     const itemImage = document.createElement("div");
     const itemPrice = document.createElement("div");
 
+    itemCard.classList.add("item-card");
+    itemName.classList.add("item-name");
+    itemImage.classList.add("item-image");
+    itemPrice.classList.add("item-price");
+
     itemName.textContent = item.name;
     itemImage.innerHTML = `<img src="${item.image}" alt="${item.name}" />`;
-    itemPrice.textContent = item.price;
+    itemPrice.textContent = "$" + item.price;
 
     itemCard.appendChild(itemName);
     itemCard.appendChild(itemImage);

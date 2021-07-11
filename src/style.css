@@ -72,15 +72,53 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 70%;
 }
 
-img {
+#page-image img {
   width: 500px;
   height: auto;
 }
 
 #home p {
   text-align: justify;
+  color: #1f567a;
+  line-height: 2;
+}
+
+#menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-card {
+  width: 200px;
+  height: 300px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item-name {
+  margin-bottom: 20px;
+  color: #1f567a;
+}
+
+.item-price {
+  margin-top: 20px;
+  color: #1f567a;
+}
+
+.item-image img {
+  width: 200px;
+  height: auto;
+}
+
+#contact {
   color: #1f567a;
 }

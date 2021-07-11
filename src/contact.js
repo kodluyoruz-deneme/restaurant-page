@@ -4,6 +4,8 @@ export function loadContact() {
   const telSection = document.createElement("div");
   const emailSection = document.createElement("div");
 
+  contactSection.setAttribute("id", "contact");
+
   addressSection.innerHTML =
     "<p><strong>Adress: </strong>Atatürk, 121. Sk., 35680 Foça/İzmir</p>";
   telSection.innerHTML = "<p><strong>Tel: </strong>0850123133934</p>";
