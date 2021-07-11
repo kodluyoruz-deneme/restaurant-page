@@ -46,6 +46,7 @@ a {
   text-decoration: none;
   padding: 10px;
   transition: background-color 0.5s;
+  font-size: 20px;
 }
 
 a:hover {
@@ -54,7 +55,7 @@ a:hover {
 }
 
 a:active {
-  background-color: #dff5e9;
+  background-color: #a5dce4;
 }
 
 main {
@@ -77,4 +78,9 @@ main {
 img {
   width: 500px;
   height: auto;
+}
+
+#home p {
+  text-align: justify;
+  color: #1f567a;
 }

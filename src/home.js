@@ -1,5 +1,6 @@
 export function loadHome() {
   const homeSection = document.createElement("section");
+  homeSection.setAttribute("id", "home");
   const paragraph = document.createElement("p");
   paragraph.textContent = `In the heart of Bodrum, set at the magnificent place, near the
     castle of Bodrum, the eternal guardian of the region, a rustic gem
