@@ -20,6 +20,43 @@ header h4 {
   text-align: justify;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul,
+li,
+nav,
+a {
+  background-color: #1f567a;
+  color: #ebf4fa;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.5s;
+}
+
+a:hover {
+  background-color: #eff8f3;
+  color: #1f567a;
+}
+
+a:active {
+  background-color: #dff5e9;
+}
+
 main {
   display: flex;
   flex-direction: column;
