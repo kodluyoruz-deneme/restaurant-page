@@ -10,7 +10,7 @@ export function loadHome() {
     strong traditional elements travels you in a feast of Mediterranean
     flavors. Within easy access even when there are physical
     disabilities, its hospitable courtyard offers you the perfect
-    environment where you can enjoy delicious dishes of the Greek
+    environment where you can enjoy delicious dishes of the Turkish
     cuisine, prepared with care and local, pure ingredients and fresh
     fish or original salads that meet the requirements of the modern
     healthy diet.`;

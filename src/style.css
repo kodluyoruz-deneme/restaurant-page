@@ -14,6 +14,7 @@ header {
   color: #1f567a;
   width: 80%;
   margin: 0 auto;
+  font-family: "Cormorant Garamond", serif;
 }
 
 header h4 {
@@ -47,6 +48,7 @@ a {
   padding: 10px;
   transition: background-color 0.5s;
   font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
 }
 
 a:hover {
@@ -84,6 +86,7 @@ main {
   text-align: justify;
   color: #1f567a;
   line-height: 2;
+  font-family: "Fira Sans", sans-serif;
 }
 
 #menu {
@@ -107,11 +110,13 @@ main {
 .item-name {
   margin-bottom: 20px;
   color: #1f567a;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .item-price {
   margin-top: 20px;
   color: #1f567a;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .item-image img {
@@ -121,4 +126,5 @@ main {
 
 #contact {
   color: #1f567a;
+  font-family: "Fira Sans", sans-serif;
 }
